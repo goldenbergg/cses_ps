@@ -6,7 +6,7 @@ Personal solutions for CSES Problem Set in C.
 - [x] [Missing Number](https://github.com/goldenbergg/cses_ps/blob/main/intro/miss_num.c)
 - [x] [Repetitions](https://github.com/goldenbergg/cses_ps/blob/main/intro/rep.c)
 - [x] [Increasing Array](https://github.com/goldenbergg/cses_ps/blob/main/intro/inc_arr.c)
-- [ ] Permutations
+- [x] [Permutations](https://github.com/goldenbergg/cses_ps/blob/main/intro/perms.c)
 - [ ] Number Spiral
 - [ ] Two Knights
 - [ ] Two Sets
