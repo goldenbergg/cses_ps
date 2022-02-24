@@ -2,11 +2,11 @@
 Personal solutions for CSES Problem Set in C.
 
 ## Introductory Problems
-- [x] Weird Algorithm
-- [x] Missing Number
-- [x] Repetitions
-- [x] Increasing Array
-- [x] Permutations
+- [x] [Weird Algorithm](https://github.com/goldenbergg/cses_ps/blob/main/intro/weird_algo.c)
+- [x] [Missing Number](https://github.com/goldenbergg/cses_ps/blob/main/intro/miss_num.c)
+- [x] [Repetitions](https://github.com/goldenbergg/cses_ps/blob/main/intro/rep.c)
+- [x] [Increasing Array](https://github.com/goldenbergg/cses_ps/blob/main/intro/inc_arr.c)
+- [ ] Permutations
 - [ ] Number Spiral
 - [ ] Two Knights
 - [ ] Two Sets
