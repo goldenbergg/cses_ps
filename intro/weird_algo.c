@@ -3,23 +3,18 @@
 
 int main(int argc, char **argv)
 {
-	int64_t input;
+	int64_t n;
 	
-	if (scanf("%ld", &input) == EOF) {
+	if (scanf("%ld", &n) == EOF) {
 		printf("scanf: EOF\n");
 	}
 	
-	printf("%ld ", input);
+	printf("%ld ", n);
 
-	for(; input > 1;) {
-		if (!(input % 2)) {
-			input /= 2;
-		} else {
-			input = (3 * input) + 1;
-		}
-		
-		printf("%ld ", input);
+	for(; n != 1;) {
+		n = (!(n % 2)) ? n / 2 : 3 * n + 1;
+		printf("%ld ", n);
 	}
-
+	
 	return 0;
 }
