@@ -1,33 +1,28 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <stdint.h>
 
 int main(int argc, char **argv)
 {
-	char temp;
-	int64_t nums;
+	char t;
+	int64_t n;
 
-	if (scanf("%ld", &nums) == EOF) {
+	if (scanf("%ld", &n) == EOF) {
 		printf("scanf: EOF\n");
 	}
 	
-	if (scanf("%c", &temp) == EOF) {
+	if (scanf("%c", &t) == EOF) {
 		printf("scanf: EOF\n");
 	}
 	
-	int64_t curr_num;
-	int64_t sum = 0;
-	
-	for (size_t loop_idx = 1; loop_idx < (uint64_t) nums; loop_idx++) {
-		if (scanf("%ld", &curr_num) == EOF) {
+	int64_t s = 0;
+
+	for (int64_t i = 1, j = 0; i < n; i++, s += j) {
+		if (scanf("%ld", &j) == EOF) {
 			printf("scanf: EOF\n");
 		}
-
-		sum += curr_num;
 	}
-	
-	int64_t miss_num = nums * (nums + 1) / 2 - sum;
-	printf("%ld", miss_num);
+
+	printf("%ld", n * (n + 1) / 2 - s);
 
 	return 0;
 }
