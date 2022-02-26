@@ -13,7 +13,6 @@ int main(int argc, char **argv)
 	if (!n) {
 		return 0;
 	}
-	
 
 	for(int64_t loop_idx = 1; loop_idx <= n; loop_idx++) {
 		printf("%ld\n", (loop_idx > 2) ? (loop_idx * loop_idx) * 
