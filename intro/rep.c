@@ -10,18 +10,20 @@ int main(int argc, char **argv)
 		printf("scanf: EOF\n");
 	}
 	
-	uint32_t longest_rep = 1;
-	char curr_char = 'A';
+	char c = 'A';
+	int64_t cnt = 0, max_rep = 0;
 
-	for (size_t buf_idx = 0, count = 0; buf[buf_idx] != '\0'; buf_idx++) {
-		if (buf[buf_idx] == curr_char) {
-			count++;
-			longest_rep = (count > longest_rep) ? count : longest_rep;
+	for (size_t i = 0; buf[i] != '\0'; i++) {
+		if (buf[i] == c) {
+			cnt++;
 		} else {
-			curr_char = buf[buf_idx];
-			count = 1;
+			max_rep = (cnt > max_rep) ? cnt : max_rep;
+			c = buf[i];
+			cnt = 1;
 		}
 	}
 
-	printf("%d", longest_rep);
+	printf("%ld", (cnt > max_rep) ? cnt : max_rep);
+
+	return 0;	
 }
