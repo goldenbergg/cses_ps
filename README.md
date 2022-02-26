@@ -7,8 +7,8 @@ Personal solutions for CSES Problem Set in C.
 - [x] [Repetitions](https://github.com/goldenbergg/cses_ps/blob/main/intro/rep.c)
 - [x] [Increasing Array](https://github.com/goldenbergg/cses_ps/blob/main/intro/inc_arr.c)
 - [x] [Permutations](https://github.com/goldenbergg/cses_ps/blob/main/intro/perms.c)
-- [ ] Number Spiral
-- [ ] Two Knights
+- [x] [Number Spiral](https://github.com/goldenbergg/cses_ps/blob/main/intro/num_spiral.c)
+- [x] [Two Knights](https://github.com/goldenbergg/cses_ps/blob/main/intro/two_knights.c)
 - [ ] Two Sets
 - [ ] Bit Strings
 - [ ] Trailing Zeros
