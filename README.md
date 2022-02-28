@@ -10,7 +10,7 @@ Personal solutions for CSES Problem Set in C.
 - [x] [Number Spiral](https://github.com/goldenbergg/cses_ps/blob/main/intro/num_spiral.c)
 - [x] [Two Knights](https://github.com/goldenbergg/cses_ps/blob/main/intro/two_knights.c)
 - [ ] Two Sets
-- [ ] Bit Strings
+- [x] [Bit Strings](https://github.com/goldenbergg/cses_ps/blob/main/intro/bit_strs.c)
 - [ ] Trailing Zeros
 - [ ] Coin Piles
 - [ ] Palindrome Reorder
