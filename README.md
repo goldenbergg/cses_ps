@@ -11,7 +11,7 @@ Personal solutions for CSES Problem Set in C.
 - [x] [Two Knights](https://github.com/goldenbergg/cses_ps/blob/main/intro/two_knights.c)
 - [ ] Two Sets
 - [x] [Bit Strings](https://github.com/goldenbergg/cses_ps/blob/main/intro/bit_strs.c)
-- [ ] Trailing Zeros
+- [x] [Trailing Zeros](https://github.com/goldenbergg/cses_ps/blob/main/intro/trail_zeros.c)
 - [ ] Coin Piles
 - [ ] Palindrome Reorder
 - [ ] Gray Code
